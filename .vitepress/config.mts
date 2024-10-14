@@ -11,7 +11,10 @@ export default defineConfig({
     sidebar: [
       {
         text: "",
-        items: [{ text: "Primeros pasos", link: "/primeros-pasos" }],
+        items: [
+          { text: "Primeros pasos", link: "/primeros-pasos" },
+          { text: "Contacto", link: "/contacto" },
+        ],
       },
     ],
 

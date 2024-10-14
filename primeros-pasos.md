@@ -1,6 +1,7 @@
----
++---
 layout: doc
 title: Primeros pasos
+
 ---
 
 # Primeros pasos
