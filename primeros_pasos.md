@@ -14,7 +14,7 @@ Antes de ser un merchant y aceptar BCH, sería recomendable que sienta la experi
   <a href="https://play.google.com/store/apps/details?id=com.bitcoin.mwallet"><img src="./images/google-play.webp" alt="Google Store" /></a>
 </div>
 
-La billetera de Bitcoin.com es una de las mas simples de usar y es la recomendada para iniciarse. Recomendamos remover la de BTC para no confundirse.
+La billetera de Bitcoin.com es una de las mas simples de usar y es la recomendada para iniciarse. Recomendamos remover la wallet de BTC para no confundirse.
 
 La billetera de Bitcoin.com incluye una wallet Etherium, la cual incluye el token USDC que es una buena opción para tener dolares digitales y fondear nuestra wallet BCH.
 
@@ -28,7 +28,12 @@ La wallet puede ser fondeada de muchas maneras:
 
 - Si tiene conocidos en la comunidad puede adquirir BCH por ese medio, intercambiando BCH por dinero FIAT.
 - Desde la billetera también podrá adquirir cripto con una tarjeta de crédito internacional.
-- Billeteras virtuales custodiadas como Fiwind o Lemon le permite depositar pesos y adquirir cripto , puede adquirir USDC en ellas y usar la red Etherium para enviarse USDC a su billetera no custodiada, una vez ahi puede swapear USDC por BCH.
+- Billeteras virtuales custodiadas como [Fiwind](https://www.fiwind.io/) o [Lemon](https://lemon.me/) le permite depositar pesos y adquirir cripto , puede adquirir USDC en ellas y usar la red Etherium para enviarse USDC a su billetera no custodiada, una vez ahi puede swapear USDC por BCH.
+  [SatoshiTango](https://www.satoshitango.com/) por otro lado es una billetera virtual que usa BCH, por lo tanto esta es la opción preferida para adquirir BCH, luego podrá mover las monedas a su billetera autocustodia desde ahi.
+
+- Querés testearla? mandanos tu dirección Bitcoincash a info@bitcoincash.ar que te mandamos unos \*satoshis de regalo!!
+
+> \* 1BCH es igual a 100.000.000 satoshis
 
 ## Use los BCH
 

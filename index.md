@@ -54,7 +54,7 @@ Juan se instaló una billetera no-custodiada, lo que significa que él es el due
 
 ## Aceptemos BCH!!
 
-Ahora que Juan tiene una billetera, Pedro, su amigo, le va a pagar una vieja deuda por este medio. Juan le envía la dirección pública de su billetera a Pedro, éste le envía a esa dirección US$10 en BCH. En ese momento, la billetera de Pedro pública en la red Bitcon Cash esta transacción la cual se desparrama en una fracción de segundo.
+Ahora que Juan tiene una billetera, Pedro, su amigo, le va a pagar una vieja deuda por este medio. Juan le envía la dirección pública de su billetera a Pedro, éste le envía a esa dirección US$10 en BCH. En ese momento, la billetera de Pedro publica en la red Bitcon Cash esta transacción la cual se desparrama en una fracción de segundo.
 
 Mientras tanto, los mineros, que son simplemente computadoras que corren el software de Bitcoin toman algunas transferencias que están en espera y las meten en un bloque de datos, entre ellas estará el pago de Pedro a Juan. Cada minero tendrá un bloque candidato y tratará de que sea su bloque el elegido para ser incluido en la BlockChain. Para esto los mineros juegan una carrera para resolver un acertijo criptográfico que les demanda mucha energía de cómputo, el primero que resuelva el acertijo se le va a permitir incluir su bloque y se llevará la recompensa. La recompensa incluye un subsidio, que son nuevas monedas que el sistema crea de la nada y hoy equivale a un poco más de 3BCH, por otro lado los fees de las transacciones del bloque son el segundo premio.
 
@@ -62,7 +62,7 @@ Este trabajo de minería hace que los mineros deban invertir en equipos para lle
 
 Este proceso se da cada 10 minutos aproximadamente. Cada 4 años el subsidio pasa a ser de la mitad, lo que llamamos "Halving", en un par de años ya no habra subsidio, los mineros solo vivirán del uso de la red y sus fees y Bitcoin Cash tendrá casi 21 millones de unidades sin posibilidad de crecer, la moneda es anti-inflacionaria por diseño.
 
-Las transacciones en BCH son instantáneas, lo que llamamos 0-conf, esto significa que si bien aun nuestra transacción requiere por lo menos de algunos minutos para estar incorporada a la blockchain, el sistema asegura de que inevitablemente esto sucederá. Si un comerciante está vendiendo una moto quizás quiera esperar a que la transacción entre en la blockchain lo cual llevará menos de 10 minutos, en una hora una transacción debería estar bajo 6 bloques lo cual es prácticamente imposible de adulterar. Las billeteras para puntos de venta (POS) normalmente permiten configurar cuantas confirmaciones queremos para aceptar el pago como válido.
+Las transacciones en BCH son instantáneas, lo que llamamos 0-conf, esto significa que si bien aun nuestra transacción requiere por lo menos de algunos minutos para estar incorporada a la blockchain, el sistema asegura de que inevitablemente esto sucederá. Si un comerciante está vendiendo una moto quizás quiera esperar a que la transacción entre en la blockchain lo cual llevará aproximadamente unos 10 minutos, en una hora una transacción debería estar bajo 6 bloques lo cual es prácticamente imposible de adulterar. Las billeteras para puntos de venta (POS) normalmente permiten configurar cuantas confirmaciones queremos para aceptar el pago como válido.
 A todo esto, Juan recibió sus BCH instantáneamente, no importa si Pedro estaba en frente de él, o si estaba en Japón, y ningún tercero formó parte de esta transferencia, esto es efectivo digital y es revolucionario.
 
 ## Monedas estables

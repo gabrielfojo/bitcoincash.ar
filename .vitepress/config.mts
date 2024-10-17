@@ -6,14 +6,17 @@ export default defineConfig({
   description: "Bitcoin Cash para todos",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Contacto", link: "/contacto" },
+    ],
 
     sidebar: [
       {
         text: "",
         items: [
-          { text: "Primeros pasos", link: "/primeros-pasos" },
-          { text: "Contacto", link: "/contacto" },
+          { text: "Primeros pasos", link: "/primeros_pasos" },
+          { text: "Privacidad", link: "/privacidad" },
         ],
       },
     ],
