@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: "Primeros pasos", link: "/primeros_pasos" },
           { text: "Privacidad", link: "/privacidad" },
+          { text: "Bitcoin 101", link: "/bitcoin_101" },
         ],
       },
     ],

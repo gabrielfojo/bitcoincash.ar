@@ -22,7 +22,7 @@ Por suerte BitconCash tiene muchas opciones para protegernos.
 
 ## Direcciones multiples de BCH
 
-En la billetera de Bitcoin.com **preferencias > Ajustes de privacidad > Reutilizar** dirección del depósito debería estar destildado, esto hace que se generen nuevas direcciones en lugar de usar siempre la misma. Las direcciones no caducan, significa que uno puede darle una dirección a alguien y esta persona podrá enviar siempre dinero a la misma. Esta característica permite que una billetera reciba pagos de infinitas direcciones lo cual hace muy complejo determinar quienes somos.
+En la billetera de Bitcoin.com **preferencias > Ajustes de privacidad > Reutilizar** dirección del depósito debería estar destildado, esto hace que se generen nuevas direcciones en lugar de usar siempre la misma. Las direcciones no caducan, significa que uno puede darle una dirección a alguien y esta persona podrá enviar siempre dinero a la misma. Esta característica permite que una billetera reciba pagos en infinitas direcciones lo cual hace muy complejo determinar quienes somos.
 
 ## CashFushion
 
