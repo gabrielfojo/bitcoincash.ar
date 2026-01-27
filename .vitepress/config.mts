@@ -17,14 +17,13 @@ export default defineConfig({
         items: [
           { text: "Primeros pasos", link: "/primeros_pasos" },
           { text: "Privacidad", link: "/privacidad" },
+          { text: "Estabilizar", link: "/estabilizar" },
           { text: "Bitcoin 101", link: "/bitcoin_101" },
         ],
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "twitter", link: "https://x.com/gabrielfojo" }],
 
     logo: "/bch.png",
   },

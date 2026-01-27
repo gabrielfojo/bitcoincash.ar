@@ -22,7 +22,7 @@ Por suerte BitconCash tiene muchas opciones para protegernos.
 
 ## Direcciones multiples de BCH
 
-En la billetera de Bitcoin.com **preferencias > Ajustes de privacidad > Reutilizar** dirección del depósito debería estar destildado, esto hace que se generen nuevas direcciones en lugar de usar siempre la misma. Las direcciones no caducan, significa que uno puede darle una dirección a alguien y esta persona podrá enviar siempre dinero a la misma. Esta característica permite que una billetera reciba pagos en infinitas direcciones lo cual hace muy complejo determinar quienes somos.
+En la billetera de Bitcoin.com **preferencias > Ajustes de privacidad > Reutilizar** dirección del depósito debería estar destildado, esto hace que se generen nuevas direcciones en lugar de usar siempre la misma. Las direcciones no caducan, significa que uno puede darle una dirección a alguien y esta persona podrá enviar siempre dinero a la misma. Las transacciones en la Blockchain están atadas a una dirección, al usar siempre una distinta se hace muy dificil que un tercero sepa cuanto dinero tenemos en nuestra wallet.
 
 ## CashFushion
 
@@ -32,7 +32,7 @@ Esta opción es más avanzada, solo se incluye simplemente por referencia. Cashf
 
 ## Otras criptos
 
-El lector debe saber que hay otras criptos además de BitcoinCash que compiten por el puesto de ser una moneda libre, algunas inclusive incorporan encriptación en su Blockchain haciendo imposible el rastreo de las mismas. Monero(XMR) es un ejemplo. Nuestra postura es que BCH es mucho más rápida, económica y que para la mayoría de los casos de uso, las direcciones múltiples son suficientes para protegernos. No obstante, si el intercambio se hace mediante exchanges que no requieren de nuestros datos, sería perfectamente factible swapear coins entre BCH y XMR según el caso de uso que tengamos.
+El lector debe saber que hay otras criptos además de Bitcoin Cash que compiten por el puesto de ser una moneda libre, algunas inclusive incorporan encriptación en su Blockchain haciendo imposible el rastreo de las mismas. Monero(XMR) es un ejemplo. Nuestra postura es que BCH es mucho más rápida, económica y que para la mayoría de los casos de uso, las direcciones múltiples son suficientes para protegernos. EN el roadmap de desarrollo Bitcoin Cash tiene ya planes para incorporar privacidad como manera opcional en su cadena.
 
 <style module>
 

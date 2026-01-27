@@ -5,8 +5,6 @@ title: Primeros pasos
 
 # Primeros pasos
 
-Antes de ser un merchant y aceptar BCH, sería recomendable que sienta la experiencia del lado del cliente, adquiera algunos BCH y compre algo con ellos.
-
 ## Instalemos la Wallet
 
 <div style="width:100%;display:flex; justify-content:space-between;margin:20px auto">
@@ -14,11 +12,11 @@ Antes de ser un merchant y aceptar BCH, sería recomendable que sienta la experi
   <a href="https://play.google.com/store/apps/details?id=com.bitcoin.mwallet"><img src="./images/google-play.webp" alt="Google Store" /></a>
 </div>
 
-La billetera de Bitcoin.com es una de las mas simples de usar y es la recomendada para iniciarse. Recomendamos remover la wallet de BTC para no confundirse.
+La billetera de Bitcoin.com es una de las mas simples de usar y es la recomendada para iniciarse. La wallet viene por defecto con varias cadenas preinstaladas, BTC, BCH, y ETH.
 
-La billetera de Bitcoin.com incluye una wallet Etherium, la cual incluye el token USDC que es una buena opción para tener dolares digitales y fondear nuestra wallet BCH.
+La wallet Etherium, la cual incluye el token USDC que es una opción para tener dolares digitales, puede dejarla ya que tanto USDC cono USDT son monedas estables muy usadas y puede servir de puente entre diferentes wallets.
 
-Vaya a fondos, elija la wallet BCH y presione los tres puntitos en la esquina superior derecha, se abrirán las preferencias de la wallet. En mostrar frase de recuperación tendrá las 12 palabras mencionadas anteriormente. Anotelas en un papel. Guardelo seguro.
+Vaya a carteras, elija la wallet BCH y presione los tres puntitos en la esquina superior derecha, se abrirán las preferencias de la wallet. En mostrar frase de recuperación tendrá las 12 palabras mencionadas anteriormente. Anotelas en un papel. Guardelo seguro.
 
 En ajustes > preferencias podrá setear opciones de seguridad para que la app le pida autenticarse antes de ser usada, también encontrará la opción para setear la moneda alternativa, aquí podrá elegir el Peso Argentino.
 
@@ -27,11 +25,9 @@ En ajustes > preferencias podrá setear opciones de seguridad para que la app le
 La wallet puede ser fondeada de muchas maneras:
 
 - Si tiene conocidos en la comunidad puede adquirir BCH por ese medio, intercambiando BCH por dinero FIAT.
-- Desde la billetera también podrá adquirir cripto con una tarjeta de crédito internacional.
-- Billeteras virtuales custodiadas como [Fiwind](https://www.fiwind.io/) o [Lemon](https://lemon.me/) le permite depositar pesos y adquirir cripto , puede adquirir USDC en ellas y usar la red Etherium para enviarse USDC a su billetera no custodiada, una vez ahi puede swapear USDC por BCH.
-  [SatoshiTango](https://www.satoshitango.com/) por otro lado es una billetera virtual que usa BCH, por lo tanto esta es la opción preferida para adquirir BCH, luego podrá mover las monedas a su billetera autocustodia desde ahi.
+- Billeteras virtuales custodiadas como [Fiwind](https://www.fiwind.io/) o [Lemon](https://lemon.me/) le permiten depositar pesos y adquirir cripto, si bien BCH no es aceptada en estas dos billeteras, es posible usar otra cripto como USDC/USDT como puente entre wallets custodia y nuestra wallet auto-custodia.
 
-- Querés testearla? mandanos tu dirección Bitcoincash a info@bitcoincash.ar que te mandamos unos \*satoshis de regalo!!
+- Querés testearla? mandanos tu dirección Bitcoin Cash a info@Bitcoin Cash.ar que te mandamos unos \*satoshis de regalo!!
 
 > \* 1BCH es igual a 100.000.000 satoshis
 

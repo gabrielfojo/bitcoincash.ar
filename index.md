@@ -1,89 +1,93 @@
 ---
-title: Bienvenidos
+title: Bitcoin Cash
 ---
 
-# Bienvenidos
+# Que es Bitcoin Cash?
 
-Esta guía está dirigida a comerciantes de Argentina, el objetivo de la misma es brindar una rápida introducción al efectivo digital, y que el comerciante pueda ver que no solo iguala a su contraparte en papel sino que suma otros beneficios.
+Todo el mundo sabe lo que es Bitcoin, lo que pocos saben es que hay dos, uno es ![logo_small](/images/btc.png "BTC") BTC (Bitcoin) y el otro es ![logo_small](/images/bch.png "BCH") BCH (Bitcoin Cash). Bitcoin (el protocolo) nació en el 2009 con el objetivo de ser una moneda lejos de la injerencia de los gobiernos y los grupos de poder, una moneda descentralizada que se autorregula, donde solo podrá haber 21 millones de unidades, esto la hace anti-inflacionaria por definición.
 
-Como compradores, pagar en efectivo se hace difícil, llevar 300 dólares en una billetera digital no es problema, llevar ese importe en papel se hace imposible, no importa si el comerciante ofrece un 10% de descuento, no hay billetera lo suficientemente grande para cargar tantos billetes.
+El split entre las dos cadenas se dió en el 2017, y hoy son muy diferentes, mientras BTC se usa para especular, BCH siguió el plan original y hoy tiene todo para que cada uno de nosotros la use como medio de pago de todos los dias y como reserva de valor ya que en los últimos años su valor no para de crecer.
 
-Las billeteras virtuales y las tarjetas de los bancos crean un costo extra, son un mal necesario que no todos pueden costear, por último, el Estado, cuya hambre de recaudación lleva al comerciante a cobrar en diferentes cuentas bancarias para no pasarse con los límites permitidos por la AFIP o intentar cobrar en efectivo para evadir impuestos.
+> Esta es una guía rápida para poder entender el mundo cripto, especialmente enfocada a BCH, creemos que una vez entendiendo como funciona el protocolo Bitcoin será suficiente para entender el tema en forma general.
 
-> El efectivo digital soluciona todos estos inconvenientes.
+# Funcionamiento básico
 
-## Al Cesar lo que es del Cesar
+Quizás el lector en algún momento descargó peliculas con BitTorrent, eso era un software P2P, uno descargaba la aplicación y nuestra máquina se convertía en un NODO, todos los NODOS estaban conectados entre sí, los NODOS eran clientes cuando descargaba una película y eran servidor cuando alguien descargaba películas de él. Al no haber un servidor central, no hay punto débil, si un gobierno quiere destruir la red debe ir por cada uno de los NODOS.
 
-El intercambio de un bien o servicio por dinero FIAT es una venta, la misma se respalda con una factura, de no ser así estaríamos incurriendo en un delito. El intercambio de un bien por otro bien es un trueque.
+Los NODOS de Bitcoin se conectan entre sí y comparten una base de datos, no de películas, sino de transacciones, son transacciones de bitcoins, a su vez cada bitcoin se subdivide en 100 millones de subunidades llamadas Satoshi.
 
-El comerciante que entrega un producto y a cambio recibe efectivo digital está haciendo un trueque, de la misma manera que un heladero vende 1Kg de helado y le da un cupón al cliente por un Kilo más, cuando el cliente reclame el kilo está haciendo un trueque nuevamente, a nadie se le ocurriría hacerle una factura por el kilo gratis.
+Todo esto funciona con criptografía, nuestra wallet tiene una llave privada y una pública. El proceso de enviar un bitcoin a otra wallet es el siguiente:
 
-Muchos comercios hoy están aceptando efectivo digital, algunos facturarán como si hubiesen recibido dinero físico, otros no, la decisión es de cada uno de Uds. La realidad es que uno puede entender que el estado nos reclame un fee por usar dinero FIAT, al fin y al cabo, es su dinero, son sus reglas, ahora las cripto no dejan de ser puntos en un sistema informático, que uno le de contexto de moneda es otra historia.
-A todo esto, que es el efectivo digital?
+- Nuestra wallet selecciona una de nuestras monedas
+- Nuestra llave privada rompe el candado de esa moneda para su uso ( solo nuestra llave puede hacer eso)
+- Usando la llave pública del destinatario ponemos un candado que ahora solo la llave privada del destinatario podrá abrir
+- Nuestra wallet pública en la red la transacción
 
-## Bitcoin es Cash
+Aquí entran en escena los Mineros, que son otro tipo de NODOS que competirán tratando de resolver un acertijo criptográfico que demanda una gran cantidad de energía. Desde el punto de vista de un minero, el proceso es asi:
 
-Quizás alguna vez escucharon hablar de BitTorrent, quizás alguna vez descargaron una película con él; BitTorrent es un software P2P (persona a persona), cada nodo de la red es cliente y es servidor. Mientras descargamos alguna película, somos clientes, y cuando otro descarga desde nuestra máquina, somos servidor. En esta red no hay servidor central, el sistema no se puede anular.
+- Tomamos todas las transacciones en espera
+- Creamos un bloque candidato
+- Intentamos resolver un acertijo criptográfico con el
+- Si tenemos suerte, lo resolvemos antes que el resto y avisamos a toda la red
+- Si los NODOs nos dan el OK, nuestro bloque se anexa a la blockchain y las transacciones de nuestro bloque ya tienen una confirmación
 
-Bitcoin es una red P2P, pero en lugar de compartir películas, los nodos comparten una base de datos, de que? de transacciones, que transaccionamos? unidades del sistema; estas unidades se llaman bitcoins.
+> Esto es general para todas las criptomonedas, cada cadena escribe en la blockchain en tiempos diferentes, algunas lo hacen 1 vez por segundo. Bitcoin Cash escribe en promedio cada 10 minutos. En muchas wallets verán que un envío de una dirección a otra es instantáneo, eso es porque Bitcoin Cash tiene 0-Conf, significa que aunque nuestra transacción no está aún en la Blockchain, el protocolo se asegurará de que lo estará. Como norma general, si enviamos $1000 dólares no necesitamos confirmación en la blockchain, si enviamos $50mil quizás si nos convenga esperar.
 
-Bitcoin fue creado para ser efectivo digital P2P. Al igual que el efectivo en papel, es instantáneo, y prácticamente no tiene fricción, el costo de una transacción es insignificante, y al igual que el efectivo en papel no hay intermediarios, esto es posible gracias a la blockchain, la base de datos que miles de nodos comparten. Aquí no hay gobiernos ni empresas que controlen la red, por lo menos en Bitcon Cash.
-Bitcoin permite que dos partes se envíen efectivo en forma instantánea con costos insignificantes estando separados a un mundo de distancia, esto es un salto enorme en la evolución del dinero. Si sienten aroma a revolución, es real, Bitcoin es la herramienta creada para separar al Estado de la Moneda #FixTheMoneyFixTheWorld.
+El minero no hace esto gratis, el ganador se lleva 2 premios. El primer premio se llama subsidio, y hoy es de 3 bitcoins, tanto en BTC como en BCH. Estas son unidades nuevas creadas por el sistema. Cada 4 años este premio se divide en dos en un evento llamado Halving, el próximo será en el año 2028 y el premio será de 1.56, hasta que en algún punto ya no habrá nuevas unidades.
 
-Hoy hay dos versiones de Bitcoin. Bitcoin Core ![logo_small](/images/btc.png "BCH") que corre bajo el Ticker BTC y es lo que todo el mundo conoce como Bitcoin y es lo que se ve en las noticias, éste ya no sirve como efectivo digital, esta versión está bajo el control de los mismos que controlan la moneda FIAT y ha sido corrompida. La otra versión es Bitcoin Cash ![logo_small](/images/bch.png "BCH") que corre bajo el ticker BCH y que es la versión que se ha mantenido fiel al diseño original, es moneda libre.
+El segundo premio es el fee, es cuanto paga el que envía por la transacción, el minero ganador se lleva también todos los fees de las transacciones de su bloque. En Bitcoin Cash el fee es de centavos, no importa si enviamos $1 dólar o $1 Millón.
 
-## Cómo funciona?
+> Satoshi Nakamoto, el creador de Bitcoin escribió, "Habrá millones de transacciones, o ninguna", lo que significa es que para que el sistema funcione debe haber uso real ya que a la larga son los fees los que pagan a los mineros y su poder de cómputo es lo que mantiene segura a la red.
 
-La base es la criptografía asimétrica, una wallet de Bitcoin es simplemente un juego de llaves criptográficas, a la vista es solo un montón de letras y números. La llave privada es la que permite abrir la caja fuerte y sacar el dinero, la llave pública es la que le damos a los que nos quieren enviar dinero.
+# Medio de intercambio
 
-Juan se instala una billetera desde la App Store de su teléfono (bitcoin.com), esta ya viene con una wallet BCH, las llaves ya están pre creadas por la App. El creador de la App no tiene acceso a la llave privada, solo Juan lo tiene. Lo primero que hace Juan es resguardar estas claves. Las llaves privadas son muy largas, pero las billeteras tienen un modo más simple de permitirle al usuario resguardarlas y es mediante 12 palabras en orden, estas palabras permiten recrear esa billetera en el caso de que se pierda el teléfono.
+Ahora que tenemos una idea general de que es Bitcoin, entendamos las ventajas que tiene como medio de intercambio. En Argentina aplicaciones como Mercado Pago son usadas extensivamente en todo el país pero con costos altos para el comerciante, tal es asi que el pago con QR no es aceptado en muchos comercios por sus costos. Muchos comerciantes prefieren efectivo, y hacen descuentos por pagos con el, quizás en busca de un poco de evasión fiscal.
 
-::: tip
-Copiar estas 12 palabras en un papel y guardar en un lugar seguro
-:::
+La red de Bitcoin Cash funciona mucho más rápido y no está localizada en Argentina, puedo enviar un pago a Japón que da exactamente lo mismo y llegará en forma instantánea y solo costará centavos.
 
-Juan podría guardar millones en esta billetera, escribir estas palabras en un papel, guardar esto en una caja de plástico y enterrarla 1 metro bajo tierra , borrar la App, y 20 años despues el hijo de Juan podría desenterrar la caja y reclamar los BCH tengan el valor que tengan en ese momento simplemente con esas 12 palabras.
+No hay dinero de por medio, es un trueque, podríamos verlo como una base de datos de trueque, más allá de que al no haber dinero de por medio no hay evasión fiscal, el estado no puede de una manera simple ver las transacciones si se hacen de manera correcta.
 
-Esta es una de las ventajas de las Criptos, una persona podría tener los ahorros de la vida en oro escondidos en la pared de su casa, pero si debe abandonar el país de repente, por guerras, razones climáticas, lo que sea, trasladar kilos de oro se hace imposible. Una persona podría tener millones en cripto, tener que escapar de su país, y solo recordando estas 12 palabras podría recuperar millones en un rato y dormir en el Hilton esa noche.
+Es prácticamente gratis, es instantáneo, ¿qué desventajas tiene?
 
-No hay fronteras para las criptomonedas y esto nos lleva a la premisa número #1 del mundo cripto...
+# Unidad de Medida
 
-## Not Your Keys, Not your Coins
+Cuando vamos al supermercado, el precio esta en pesos, no en Satoshis, eso es porque la unidad de medida es el peso que a su vez depende del dólar. Por lo tanto es normal que el precio de las criptomonedas con respecto al dólar fluctúa, en algunos casos mucho.
 
-Juan se instaló una billetera no-custodiada, lo que significa que él es el dueño de las llaves privadas, solo él puede abrir el candado para usar ese dinero. La mayoría de las aplicaciones mas usadas son custodiadas lo cual significa que el proveedor maneja las llaves, por ejemplo Binance, de la misma manera que un banco, si al banco funde generalmente hay un seguro, aquí no, si la aplicación se funde el dinero no vuelve. Si no son tus llaves, no son tus monedas.
+Para el comerciante que acepta BCH como medio de pago significa que hoy vende $100 por sus productos, y mañana tendrá $90, o $110. Si BCH esta semana esta mucho más caro de lo habitual, significa que el comerciante venderá sus productos y recibirá menos Satoshis, o puede ser al revés. Es parte de las reglas de juego.
 
-## Aceptemos BCH!!
+El comerciante debe entender que hay formas de estabilizar la moneda, cambiando los BCHs por una Stablecoin, como USDC/USDT estaría estabilizando, así el comerciante se asegura de que si vendió $100 , tendrá $100, pero si BCH triplica su valor habrá perdido dinero.
 
-Ahora que Juan tiene una billetera, Pedro, su amigo, le va a pagar una vieja deuda por este medio. Juan le envía la dirección pública de su billetera a Pedro, éste le envía a esa dirección US$10 en BCH. En ese momento, la billetera de Pedro publica en la red Bitcon Cash esta transacción la cual se desparrama en una fracción de segundo.
+Los que usamos BCH como medio de pago no nos importa a cuánto cotiza, hacemos "Spend and Replace" gastamos, y luego reponemos adquiriendo más BCH, si esta barato o caro es igual, es dinero que de todas formas íbamos a gastar en bienes.
 
-Mientras tanto, los mineros, que son simplemente computadoras que corren el software de Bitcoin toman algunas transferencias que están en espera y las meten en un bloque de datos, entre ellas estará el pago de Pedro a Juan. Cada minero tendrá un bloque candidato y tratará de que sea su bloque el elegido para ser incluido en la BlockChain. Para esto los mineros juegan una carrera para resolver un acertijo criptográfico que les demanda mucha energía de cómputo, el primero que resuelva el acertijo se le va a permitir incluir su bloque y se llevará la recompensa. La recompensa incluye un subsidio, que son nuevas monedas que el sistema crea de la nada y hoy equivale a un poco más de 3BCH, por otro lado los fees de las transacciones del bloque son el segundo premio.
+Ahí ya entramos en otra característica de la moneda, la reserva de valor.
 
-Este trabajo de minería hace que los mineros deban invertir en equipos para llevarse el premio, esta inversión es grande pero asegura que los que corran el software de minería sean los guardianes de la red, la seguridad de Bitcoin esta atada a la codicia del inversor que es el primer interesado en que la red no sea corrompida ya que su negocio depende de ello.
+# BCH como reserva de valor
 
-Este proceso se da cada 10 minutos aproximadamente. Cada 4 años el subsidio pasa a ser de la mitad, lo que llamamos "Halving", en un par de años ya no habra subsidio, los mineros solo vivirán del uso de la red y sus fees y Bitcoin Cash tendrá casi 21 millones de unidades sin posibilidad de crecer, la moneda es anti-inflacionaria por diseño.
+Luego del split del 2017 , BTC se ha impuesto como reserva de valor llegando a los $US 120000 superando a BCH ampliamente que hoy ronda los $US 600, pero esto no ha sido orgánico, ya que BTC es una cadena controlada por los mismos que controlan el dólar y han intervenido en los mercados desde el comienzo. Por otro lado BCH ha seguido creciendo y hoy es una de las criptomonedas que más prometen, enfocada en la adopción BCH sabe que el uso masivo asegurará su supervivencia a largo plazo, entendiendo que antes que nada es un sistema de pagos descentralizado y solo su uso le asegurará la supervivencia.
 
-Las transacciones en BCH son instantáneas, lo que llamamos 0-conf, esto significa que si bien aun nuestra transacción requiere por lo menos de algunos minutos para estar incorporada a la blockchain, el sistema asegura de que inevitablemente esto sucederá. Si un comerciante está vendiendo una moto quizás quiera esperar a que la transacción entre en la blockchain lo cual llevará aproximadamente unos 10 minutos, en una hora una transacción debería estar bajo 6 bloques lo cual es prácticamente imposible de adulterar. Las billeteras para puntos de venta (POS) normalmente permiten configurar cuantas confirmaciones queremos para aceptar el pago como válido.
-A todo esto, Juan recibió sus BCH instantáneamente, no importa si Pedro estaba en frente de él, o si estaba en Japón, y ningún tercero formó parte de esta transferencia, esto es efectivo digital y es revolucionario.
+![tradingview](/images/tradingview.png "BCH Price")
 
-## Monedas estables
+> Gráfico correspondiente al año 2025 - Bitcoin Cash desde el 2009 se mantiene en el top 20, y hoy su valor con respecto al de BTC ha empezado a subir, Bitcoin Cash ha sido una de las criptomonedas que más se ha apreciado en el último año.
 
-Juan esta confundido, le enviaron US$10, pero hoy tiene US$9, dos dias después Juan está más confundido, ahora tiene US$11. Juan debe entender que la paridad con otros bienes como el dolar varia segun las demandas del mercado. Juan puede ver esos bitcoins como inversión y no preocuparse, a medida que más personas empiecen a usar Bitcoin Cash es inevitable su revalorización con respecto al dolar.
+> Esto no es una recomendación de inversión. El lector deberá entender que todas las criptomonedas son activos de riesgo y hacer sus propio análisis riesgo/beneficio.
 
-Ahora, mientras la unidad de medida sea la moneda FIAT, a veces vamos a requerir estabilizar nuestros ahorros y escapar a los vaivenes del mercado. Imaginen que compre BCH a US$450 y hoy bajó a $400, significa que si me compro una hamburguesa, voy a necesitar más BCH para pagarla. Para no entrar en este juego lo más simple es olvidarnos de la paridad con el dólar, disfrutar nuestra hamburguesa y luego restaurar los BCH usando alguna opción estable.
+# Custodia
 
-Bitcoin Cash tiene opciones, avanzadas como BCH Bull para generar contratos que atan a nuestras monedas al dólar, oro, etc. pero vamos a ir por la opción más simple y utilizar la moneda estable de otra cripto, Etherium.
+Es importante que el lector entienda la diferencia en cuanto entre tener nuestras criptomonedas en custodia, o en auto-custodia. Aplicaciones como Binance, Lemon, Belo, etc son wallets custodiadas, nosotros nos identificamos mediante usuario, contraseña y quizás biométricos y ellos nos dan acceso a nuestro dinero, ya sea pesos, dólares o cripto. Hay que entender que en este caso, no somos dueños de nada, ellos custodian nuestros bienes.
 
-## USDC Dólar Cripto
+Si un juez decide que nos bloqueen el acceso a nuestras criptomonedas, y a nuestro dinero ellos lo harán, dado que son los custodios. Desde el punto de vista de nuestras criptos, la llave privada de cada cadena no la tenemos nosotros, la tienen ellos, por lo tanto son ellos los que interactúan con la blockchain, en muchos casos ni siquiera llegan a eso, dado que son movimientos internos.
 
-Etherium es la segunda criptomoneda del mercado en volumen de capital, es lenta y cara, no sirve como efectivo digital pero su token, el USCD es el más usado en todo el mundo cripto, este token mantiene paridad con el dólar, son dolares digitales.
+Por otro lado, hay billeteras que son auto-custodia, donde la billetera interactúa con la blockchain y su única función es, mediante el uso de nuestra llave privada, firmar transacciones. En este caso, somos nosotros los responsables de guardar esa llave privada en un lugar seguro dado que no hay una empresa intermediaria que lo haga por nosotros.
 
-La billetera de Bitcoin.com viene ya con una wallet BCH y otra ETH , la cual incluye el token USDC. Las billeteras nos permiten convertir desde BCH a USDC y viceversa en segundos. De esta manera, si BCH esta en valores altos uno puede comprar sin preocupación dado que necesitaremos menos BCH para pagar por un bien, en el caso de que BCH este con el precio más bajo de lo habitual uno puede usarlo sin inconveniente, si bien necesitaremos más BCH para pagar nuestro bien, podremos fondear desde USCD los dólares gastados para compensar.
+Las wallets custodiadas como Lemon son útiles ya que proveen un puente rápido desde nuestra moneda al mundo cripto, pero siempre recomendamos para lo que es ahorro moverlos de ahí a billeteras auto-custodia donde nadie puede tocar nuestros fondos.
 
-## La heladería de Juan
+Las billeteras auto-custodia, en su area de configuración nos permiten ver la "semilla". Esta semilla son 12 palabras con las cuales la billetera regenera la llave privada en caso de pérdida, estas palabras son todo lo que necesitamos para acceder a nuestras monedas.
 
-Juan ya entendió y va a aceptar el pago en BCH, sabe que no tendrá muchos clientes usando el medio de pago, pero quiere ser parte de la revolución y ayudar al efecto contagio. En [Bitcoin Cash Argentina](https://www.bcharg.com/) no solo encontrará un mapa de negocios donde podrá ser incluido sino material para su negocio, como stickers y soporte sin costo.
+> Este concepto debe entenderse bien, nuestra wallet no tiene nuestras criptomonedas, solo accede a la blockchain mediante la llave privada, lo único que importa aquí es guardar esas 12 palabras en un lugar seguro y no importa si el teléfono deja de funcionar o si es robado ya que no hay nada ahí. No se recomienda tomar fotos de las palabras porque estas fotos pueden ser vistas por otros, lo más seguro es lápiz y papel.
 
-La aplicación "[Caja](https://caja.bcharg.com/)" desarrollada por Bitcon Cash Argentina permite acceder fácilmente a una billetera BCH en modo lectura, de esa manera la persona de la caja puede recibir los pagos pero no tendrá permiso para usar ese dinero y le permitirá tener un balance en pesos ya que se debe entender que la relacion ARS/BCH fluctua constantemente.
+# Como me sumo?
+
+La comunidad de Bitcoin Cash es muy activa y ayuda a todos los que están empezando en este mundo, instalar una billetera auto-custodia sería el primer paso, adquirir algunos satoshis y luego buscar algun comercio donde acepten BCH [:world_map:](https://www.mapa.bcharg.com/ "Mapa")
 
 Sumate vos también :point_down:
 
@@ -91,20 +95,24 @@ Sumate vos también :point_down:
 
 <style module>
 img[alt="logo_small"] {
-  width: 20px;
-  display: inline;
-  margin: 0px 5px;
-  position: relative;
-  top: 5px;
+width: 20px;
+display: inline;
+margin: 0px 5px;
+position: relative;
+top: 5px;
+}
+
+img[alt="tradingview"] {
+width: 50%;
+display: inline;
+margin: 0px 0px;
+position: relative;
+top: 5px;
 }
 
 img[alt="img_momentos"]{
-  -webkit-filter: drop-shadow(5px 5px 5px #555);
-  filter: drop-shadow(5px 5px 5px #555);
+-webkit-filter: drop-shadow(5px 5px 5px #555);
+filter: drop-shadow(5px 5px 5px #555);
 }
-  
-
-
-
 
 </style>

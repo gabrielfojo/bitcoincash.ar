@@ -1,2 +1,3 @@
-# bitcoincash.ar
+# Bitcoin Cash.ar
+
 Bitcoin Cash Website
